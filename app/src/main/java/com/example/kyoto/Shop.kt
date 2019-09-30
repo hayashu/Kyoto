@@ -12,6 +12,10 @@ class Shop : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shop)
         itoen.setOnClickListener { onItouKyuemonnTapped(it) }
+
+
+
+        
     }
     fun onItouKyuemonnTapped(view: View?){
         val intent = Intent(this,Ito::class.java)
